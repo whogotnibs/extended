@@ -1,0 +1,101 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  height: 100%;
+}
+
+img {
+  max-width: 400px;;
+  max-height: 600px;
+  display: block;
+  margin: 5px auto;
+}
+
+video {
+  max-width: 400px;
+  max-height: 600px;
+  margin: 5px auto;
+  display: block;
+}
+
+#content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: serif;
+  letter-spacing: 1px;
+  margin: 50px auto;
+  border: 8px ridge white;
+  width: 205px;
+  padding: 10px;
+  color: white;
+  background-color: lightgray;
+}
+
+h2 {
+  margin: 30px auto;
+  font-family: 'Inconsolata';
+  font-weight: lighter;
+  padding: 10px;
+  font-size: 15px;
+  color: black;
+}
+
+h3 {
+  font-weight: bold;
+  color: blue;
+  font-size: 20px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover, a.current {
+  text-decoration: underline;
+}
+
+.bio {
+  font-family: 'Inconsolata';
+  font-size: 13px;
+  width: 400px;
+  text-align: justify;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.description {
+  font-family: 'Inconsolata';
+  font-size: 10px;
+  width: 500px;
+  text-align: justify;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.smaller {
+  width: 300px;
+}
+
+#contact {
+  font-family: 'Inconsolata';
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: lightgrey;
+  height: 25px;
+  line-height: 25px;
+  opacity: .85;
+}
+
+#contact a {
+  color: white;
+}
+
+#roles {
+  color: blue;
+}
